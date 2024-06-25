@@ -1,118 +1,161 @@
+@font-face {
+    font-family: "cera-pro-regular";
+    src: url(../fonts/CeraRoundProDEMO-Regular.otf);
+}
+
+@font-face {
+    font-family: "cera-pro-black";
+    src: url(../fonts/CeraRoundProDEMO-Black.otf);
+}
+
+@font-face {
+    font-family: "cera-pro-bold";
+    src: url(../fonts/CeraRoundProDEMO-Bold.otf);
+}
+
+@font-face {
+    font-family: "cera-pro-light";
+    src: url(../fonts/CeraRoundProDEMO-Light.otf);
+}
+
+@font-face {
+    font-family: "cera-pro-medium";
+    src: url(../fonts/CeraRoundProDEMO-Medium.otf);
+}
+
+@font-face {
+    font-family: "cera-pro-medium";
+    src: url(../fonts/CeraRoundProDEMO-Thin.otf);
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'cera-pro-regular' !important;
 }
 
-.container {
-    width: 83.333%;
-    margin: 0 auto;
-    margin-bottom: 12px;
-    background-color: #F5F5F5;
-}
-
-.header {
-    height: 53px;
-    background-color: #FFFFFF;
-    border-bottom: #F5F5F5 1px solid;
-}
-
-.title {
-    color: #46A358;
-}
-
-.flex {
+.left-right-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 171px 105px 0 105px;
 }
 
-a {
-    margin-right: 50px;
+.nav-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 189px 377px 18px;
+    background-color: #46a35800;
 }
 
-.auth {
-    height: 35px;
-    width: 100px;
+nav {
+    display: flex;
+    flex-direction: column;
+    padding: 7px 0 0 12px;
 }
 
-button {
+nav a:first-child {
+    color: #46a358;
+}
+
+nav a {
     font-size: 16px;
-    background-color: #46A358;
-    color: #FFFFFF;
-    border: none;
-    border-radius: 4px;
-}
-
-.logout {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-}
-
-.leaf-svg {
-    margin-right: 5.68px;
-}
-
-.logout-svg {
-    margin-right: 4px;
-}
-
-.shop-now {
-    width: 140px;
-    height: 40px;
-}
-
-.left-col,
-.right-col {
-    display: inline-block;
-}
-
-.right-col {
-    width: 42.2%;
+    color: #3d3d3d;
+    line-height: 40px;
 }
 
 .left-col {
-    width: 53%;
-    margin-left: 41px;
-    float: left;
-    margin-top:68px;
+    background-color: #fbfbfb;
+    width: 314px;
+    height: 1246px;
 }
 
-.left-col h3 {
-    font-size: 14px;
-    margin-bottom: 7px;
-    margin-top:80px;
+span {
+    color: #3d3d3d;
+    font-size: 18px;
+    font-weight: bold;
 }
 
-.left-col h1 {
-    font-size: 70px;
-    margin-bottom: 5px;
-    margin-top: 7px;
+.right-col {
+    margin-left: 50px;
 }
 
-.left-col p {
-    font-size: 14px;
-    margin-bottom: 44px;
-    
+.header {
+    width: 838px;
+    height: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2px 0px 3px 0px;
+    margin-bottom: 31px;
 }
 
-.left-col button {
-    font-size: 16px;
+.left-header a {
+    margin-right: 37px;
+    color: #3d3d3d;
 }
 
-h3 {
-    text-transform: uppercase;
+.left-header a:first-child {
+    color: #46a358;
 }
 
-h1 {
-    width: 560px;
-    text-transform: uppercase;
+.right-header span {
+    margin: 8px;
+    color: #3d3d3d;
 }
 
-h1::after {
-    content: 'Planet';
-    color: #46A358;
+.card-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.card {
+    width: 258px;
+    height: 350px;
+    margin-bottom: 70px;
+}
+
+.card img {
+    padding: 31px 4px 19px 4px;
+    background-color: #fbfbfb;
+    height: 300px;
+}
+
+.card p {
+    line-height: 26px;
+    color: #46a358;
+}
+
+.margin {
+    margin: 0 33px;
+}
+
+h4 {
+    color: #3d3d3d;
+    line-height: 26px;
+}
+
+footer {
+    height: 35px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+tr {
+    display: flex;
+}
+
+td {
+    border: #3d3d3d 1px solid;
+    width: 35px;
+    height: 35px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+td:first-child {
+    color: #fbfbfb;
+    background-color: #46a358;
 }
