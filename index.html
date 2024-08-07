@@ -13,19 +13,33 @@
             <div class="header">
                 <div class="nav-items">
                     <nav>
-                        <a>All plannts</a>
-                        <a>New Arivals</a>
-                        <a>Sale</a>
+                        <ul>
+                            <li>
+                                <a href="#">All plannts</a>
+                                <a href="#">New Arivals</a>
+                                <a href="#">Sale</a>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
                 <div class="sort-items">
-                    <label for="sort">
-                        Short by:
-                        <select id="sort">
-                            <option value="1">Default sorting</option>
-                            <option value="2">Specific sorting</option>
-                        </select>
-                    </label>
+                    <span>Short by: </span>
+                    <ul class="menu">
+                        <li>
+                            <a href="#">Default sorting &bigvee;</a>
+                            <ul class="default-sorting-items">
+                                <li><a href="#">Named sorting</a></li>
+                                <li><a href="#">Specific sorting</a></li>
+                                <li>
+                                    <a href="#">Selection sorting &GT;</a>
+                                    <ul class="selection-sorting">
+                                        <li><a href="#">Street plants</a></li>
+                                        <li><a href="#">House plants</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
                 </div>
             </div>
             <div class="card-wrapper">

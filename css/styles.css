@@ -33,6 +33,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "cera-pro-regular" !important;
+    text-decoration: none;
+    list-style: none;
 }
 
 .container {
@@ -46,16 +48,17 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 838px;
     height: 23px;
     margin-bottom: 32px;
 }
 
-select {
-    border: none;
+.nav-items {
+    transition: 0.5s;
 }
 
-nav a {
+.nav-items a {
     margin-right: 40px;
     font-size: 16px;
 }
@@ -64,6 +67,51 @@ nav a:hover {
     color: #46a358;
     cursor: pointer;
     border-bottom: #46a358 1px solid;
+}
+
+nav ul {
+    width: 100%;
+}
+
+nav ul li:first-child {
+    margin-top: 0;
+}
+
+.menu {
+    display: flex;
+    width: 126px;
+}
+
+.menu ul {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    display: none;
+    z-index: 1;
+}
+
+.menu li {
+    position: relative;
+    width: 200px;
+}
+
+.menu li:hover > ul {
+    display: block;
+}
+
+.menu a {
+    display: block;
+}
+
+.menu a:hover {
+    color: #46a358;
+}
+
+.menu ul ul {
+    display: none;
+    position: absolute;
+    top: 2px;
+    left: 72%;
 }
 
 .card-wrapper {
@@ -89,7 +137,16 @@ nav a:hover {
 .item {
     height: 300px;
     width: 258px;
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
+}
+
+.sort-items {
+    position: relative;
+    display: flex;
+}
+
+.sort-items span {
+    margin-right: 8px;
 }
 
 .card h3 {
