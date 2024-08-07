@@ -63,6 +63,10 @@
     font-size: 16px;
 }
 
+nav a {
+    color: #000000;
+}
+
 nav a:hover {
     color: #46a358;
     cursor: pointer;
@@ -101,6 +105,7 @@ nav ul li:first-child {
 
 .menu a {
     display: block;
+    color: #000000;
 }
 
 .menu a:hover {
