@@ -1,29 +1,31 @@
-@font-face {
-    font-family: "cera-pro-regular";
-    src: url(../fonts/CeraRoundProDEMO-Regular.otf);
+body {
+    background-image: url(../img/gradient.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #EFEFF2;
+    width: 100vw;
+    height: 100vh;
+}
+ 
+header {
+    width: 1440px;
+    height: 46px;
+    margin-top: 35px;
+    margin-left: 240px;
 }
 
-@font-face {
-    font-family: "cera-pro-black";
-    src: url(../fonts/CeraRoundProDEMO-Black.otf);
+header.a {
+
+
 }
 
-@font-face {
-    font-family: "cera-pro-bold";
-    src: url(../fonts/CeraRoundProDEMO-Bold.otf);
-}
+.nav. ul. a: {
+    size: 18px;
+    line height: 22px;
+    background:#19191C;
 
-@font-face {
-    font-family: "cera-pro-light";
-    src: url(../fonts/CeraRoundProDEMO-Light.otf);
-}
-
-@font-face {
-    font-family: "cera-pro-medium";
-    src: url(../fonts/CeraRoundProDEMO-Medium.otf);
-}
-
-@font-face {
-    font-family: "cera-pro-medium";
-    src: url(../fonts/CeraRoundProDEMO-Thin.otf);
-}
+ }
+ body {
+    width: 1920;
+ }

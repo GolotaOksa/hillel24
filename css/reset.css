@@ -1,8 +1,12 @@
+@font-face {
+    font-family: "inter-variable";
+    src: url(../fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
 
-/* http://meyerweb.com/eric/tools/css/reset/
-   v5.0.2 | 20191019
-   License: none (public domain)
-*/
+@font-face {
+    font-family: "inter-italic";
+    src: url(../fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
 
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -21,7 +25,7 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	font: inherit;
+	font-family: inter-variable;
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
