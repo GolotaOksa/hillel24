@@ -29,3 +29,7 @@ header.a {
  body {
     width: 1920;
  }
+
+ .offer_title {
+    font-weight: 800;
+ }
